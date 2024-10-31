@@ -1,4 +1,4 @@
-# Api Repositórios do Github com React + TypeScript + Vite
+# API Repositórios do Github com React + TypeScript + Vite
 
 Essa aplicação é um componente React que utiliza a API do GitHub para exibir repositórios de um usuário específico, permitindo ao usuário pesquisar repositórios pelo nome de usuário do GitHub.
 
