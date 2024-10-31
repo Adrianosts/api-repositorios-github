@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(180, 214, 248);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-height: 100vh;
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid steelblue;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container button:hover {
+  background-color: rgb(16, 67, 109);
+}
+
+.container input {
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 4px;
+}
+
+.container h3 {
+  color: rgb(95, 128, 156);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  max-width: 600px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.profile h3 a:hover {
+  color: rgb(16, 67, 109);
+}
+
+.profile h3 a {
+  color: rgb(95, 128, 156);
+  text-decoration: none;
+}
+
+.repositories {
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.repositories a {
+  color: steelblue;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.repositories a:hover {
+  color: rgb(16, 67, 109);
+}
