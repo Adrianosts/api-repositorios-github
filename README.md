@@ -2,6 +2,8 @@
 
 Essa aplicação é um componente React que utiliza a API do GitHub para exibir repositórios de um usuário específico, permitindo ao usuário pesquisar repositórios pelo nome de usuário do GitHub.
 
+Link do projeto https://api-repositorios-github.vercel.app/
+
 ![tela inicial](https://github.com/user-attachments/assets/925056ca-d940-4eb3-a337-dd6d19d1d740)
 
 
