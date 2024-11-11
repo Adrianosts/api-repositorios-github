@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 interface IRepository {
   id: number;
@@ -62,9 +63,9 @@ export function GithubApiPage() {
           />
           <h3>
             {" "}
-            <a href={repositories[0].owner.html_url} target="_blank">
+            <Link to={repositories[0].owner.html_url} target="_blank">
               {repositories[0].owner.login}
-            </a>
+            </Link>
           </h3>
           <h4></h4>
         </div>
@@ -75,9 +76,9 @@ export function GithubApiPage() {
         {repositories.map((repository) => (
           <p key={repository.id}>
             📚{" "}
-            <a href={repository.html_url} target="_blank">
+            <Link to={repository.html_url} target="_blank">
               {repository.name}
-            </a>
+            </Link>
           </p>
         ))}
       </div>
