@@ -5,7 +5,7 @@ Essa aplicação é um componente React que utiliza a API do GitHub para exibir 
 🙋‍♂️ [Link do projeto](https://api-repositorios-github.vercel.app/)
   
 
-![tela inicial](https://github.com/user-attachments/assets/925056ca-d940-4eb3-a337-dd6d19d1d740)
+![tela inicial](https://github.com/user-attachments/assets/7bda5d54-208a-4070-bb1a-ab5121536c3b)
 
 
 ### 1. Importação de Bibliotecas e Tipos:
@@ -161,7 +161,7 @@ return (
 
 - Cada repositório é listado com seu nome e link. O `key` garante uma renderização eficiente dos itens em React.
 
-![Captura de tela 2024-10-31 133018](https://github.com/user-attachments/assets/b6c7c5b3-1ff2-4331-b22f-adba8cf6600e)
+![Captura de tela 2024-11-11 102248](https://github.com/user-attachments/assets/56aa0d5c-ebc4-49e6-a35e-83b3643abfec)
 
 
 ### Resumo
